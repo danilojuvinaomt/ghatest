@@ -43,6 +43,7 @@ public class Clase1Test {
     @Test
     public void testSumar() {  
         System.out.println("sumar");
+        System.out.println("222");
         Clase1 instance = new Clase1();
         int result = instance.sumar(4, 5);
         assertEquals(9, result);

@@ -41,7 +41,7 @@ public class Clase1Test {
      * Test of sumar method, of class Clase1.
      */
     @Test
-    public void testSumar() {
+    public void testSumar() {  
         System.out.println("sumar");
         Clase1 instance = new Clase1();
         int result = instance.sumar(4, 5);

@@ -49,4 +49,12 @@ public class Clase1Test {
         assertEquals(9, result);
     }
     
+    @Test
+    public void testSumar2() {  
+        System.out.println("sumar que falla");
+        Clase1 instance = new Clase1();
+        int result = instance.sumar(4, 5);
+        assertEquals(8, result);
+    }
+    
 }

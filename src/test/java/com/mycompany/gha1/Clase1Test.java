@@ -53,8 +53,8 @@ public class Clase1Test {
     public void testSumar2() {  
         System.out.println("sumar que falla");
         Clase1 instance = new Clase1();
-        int result = instance.sumar(4, 5);
-        assertEquals(8, result);
+        int result = instance.sumar(6, 6);
+        assertEquals(12, result);
     }
     
 }
